@@ -39,22 +39,26 @@
           <!--Location-->
           <div class="form-group">
             <label for="location" class="item">Location</label>
-            <input id="location" type="text" class="item"/>
+            <input id="location" type="text" placeholder="Search destination" class="item"/>
           </div>
           <!--Arrive-->
           <div class="form-group">
             <label for="arrive" class="item">Arrive</label>
-            <input id="arrive" type="text" class="item"/>
+            <input id="arrive" type="date" class="item"/>
           </div>
           <!--Depart-->
           <div class="form-group">
             <label for="depart" class="item">Depart</label>
-            <input id="depart" type="text" class="item"/>
+            <input id="depart" type="date" class="item"/>
           </div>
           <!--Type-->
           <div class="form-group">
             <label for="type" class="item">Type</label>
-            <input id="type" type="text" class="item"/>
+            <select id="type" size="1" class="item">
+              <option value="apartment">Apartment</option>
+              <option value="house">House</option>
+              <option value="room">Room</option>
+            </select>
           </div>
           <!--Submit-->
           <button type="submit">Search</button>
