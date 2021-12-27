@@ -35,6 +35,9 @@ main img {
 }
 
 /* ---  Groups & Items --- */
+.form-group {
+  display: flex;
+}
 
 .group {
   display: flex;
