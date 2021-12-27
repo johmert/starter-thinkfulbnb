@@ -101,12 +101,15 @@ form {
 
 form label {
   font-weight: bold;
+  flex: 1;
+  margin: 10px;
 }
 
 form select,
 form input {
-  margin-bottom: 20px;
+  margin: 10px 10px 20px 10px;
   width: 180px;
+  flex: 1;
 }
 
 form button {
@@ -131,3 +134,36 @@ footer p {
 }
 
 /* -------  Media Query ------- */
+@media all and (min-width: 600px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    padding-top: 10px;
+  }
+
+  form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form-group {
+    flex-direction: column;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+
+  .idea {
+    flex-direction: column;
+  }
+
+  .host-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
