@@ -46,6 +46,10 @@ main img {
   margin: 10px;
 }
 
+.item > img {
+  width: 100%;
+}
+
 .item-double {
   flex: 2;
 }
