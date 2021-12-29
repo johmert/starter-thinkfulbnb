@@ -51,6 +51,7 @@ main img {
 }
 
 .item-double {
+  padding: 5px;
   flex: 2;
 }
 
@@ -64,8 +65,9 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 64px;
   color: #fff;
+  text-align: center;
 }
 
 header nav ul li {
@@ -92,11 +94,14 @@ header nav ul li a:hover {
 /* -------  Search Form ------- */
 .form-group {
   display: flex;
+  flex: 1;
 }
 
 form {
   border: 2px solid #ff385c;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 form label {
@@ -108,7 +113,6 @@ form label {
 form select,
 form input {
   margin: 10px 10px 20px 10px;
-  width: 180px;
   flex: 2;
 }
 
@@ -119,6 +123,7 @@ form button {
   font-size: 24px;
   padding: 15px;
   width: 100%;
+  flex: 1;
 }
 
 /* -------  Footer ------- */
@@ -145,8 +150,12 @@ footer p {
   }
 
   form {
-    display: flex;
+    flex-direction: row;
     justify-content: space-between;
+  }
+
+  .logo {
+    font-size: 72px;
   }
 
   .form-group {
@@ -161,9 +170,10 @@ footer p {
     flex-direction: column;
   }
 
-  .host-group {
+  .host-group, #host .item {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
 }
