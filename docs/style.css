@@ -7,7 +7,7 @@ body {
 h2 {
   font-size: 26px;
   font-weight: 400;
-  margin: 0 10px 10px 10px;
+  margin: 0 1% 1% 1%;
   text-align: center;
 }
 
@@ -22,7 +22,7 @@ p {
 }
 
 section {
-  padding: 20px;
+  padding: 4%;
 }
 
 section.alternate-background {
@@ -31,7 +31,7 @@ section.alternate-background {
 }
 
 main img {
-  width: 100px;
+  width: 100%;
 }
 
 /* ---  Groups & Items --- */
@@ -43,7 +43,7 @@ main img {
 
 .item {
   flex: 1;
-  margin: 10px;
+  margin: 2%;
 }
 
 .item > img {
@@ -51,7 +51,7 @@ main img {
 }
 
 .item-double {
-  padding: 5px;
+  padding: 1%;
   flex: 2;
 }
 
@@ -59,7 +59,7 @@ main img {
 
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 2% 2% 0 2%;
   text-align: center;
 }
 
@@ -99,7 +99,7 @@ header nav ul li a:hover {
 
 form {
   border: 2px solid #ff385c;
-  padding: 10px;
+  padding: 1%;
   display: flex;
   flex-direction: column;
 }
