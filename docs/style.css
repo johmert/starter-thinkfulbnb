@@ -160,6 +160,7 @@ footer p {
 
   .form-group {
     flex-direction: column;
+    min-width: 0;
   }
 
   .group {
