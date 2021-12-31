@@ -149,6 +149,11 @@ footer p {
     padding-top: 10px;
   }
 
+  #menu {
+    flex-wrap: wrap;
+    line-height: 1.4;
+  }
+
   form {
     flex-direction: row;
     justify-content: space-between;
